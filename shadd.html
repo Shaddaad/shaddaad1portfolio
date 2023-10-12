@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Shaddaad's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url('https://img.freepik.com/free-photo/starry-night-sky_1048-11828.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+            color: white;
+        }
+        .content {
+            padding-bottom: 50px; /* Adjust the padding to add space below your name */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-image: url(data:image/jpeg;base64,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);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin-bottom: 20px;
+        }
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .logo {
+            width: 200px;
+            height: 200px;
+            background-color: #333;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .logo a {
+            color: red;
+            text-decoration: none;
+            margin: 10px 0;
+        }
+        .skills, .education, .about-me {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        .skills ul, .education ul, .about-me p {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="profile-image"></div>
+        <h1>Hello, I'm Mohammed Shaddaad</h1>
+
+        <div class="about-me">
+            <h2>About Me</h2>
+            <p>I'm a passionate learner who is a beginner to coding but have prior basic knowledge in HTML and Python. I just wanted to make sure my portfolio looks neat and legible. I know it isn't much, but I'm sure I will improvise.</p>
+        </div>
+
+        <div class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>BTECH Computer Science - Model Engineering College</li>
+                <li>High School - Ma'din Public School </li>
+                <li>Higher Secondary - Darul Uloom HSS Panakkad</li>
+            </ul>
+        </div>
+
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python (Beginner)</li>
+                <li>HTML (Moderate)</li>
+                <li>CSS (Moderate)</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </div>
+
+    <div class="logo-container">
+        <div class="logo">
+            <!-- Replace 'mailto:' and 'tel:' with your actual email and phone number -->
+            <a href="mailto:mohdshaddaad2015@gmail.com">Email</a>
+            <a href="tel:7025297804">Call</a>
+        </div>
+    </div>
+</body>
+</html>
